@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(where python *)",
+      "Bash(where pip *)",
+      "Bash(python -c \"import sys; print\\('Python:', sys.executable\\); print\\('Version:', sys.version\\)\")",
+      "Bash(python -c \"import pandas, fredapi, dotenv; print\\('pandas:', pandas.__version__\\); print\\('fredapi: OK'\\); print\\('dotenv: OK'\\)\")",
+      "Bash(python src/data.py)",
+      "Bash(python -c \"import pandas, fredapi, dotenv; print\\('Tous OK depuis le terminal'\\)\")",
+      "Bash(python -c ' *)"
+    ]
+  }
+}
