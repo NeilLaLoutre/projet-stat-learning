@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données brutes (à ne pas versionner si lourdes)
+data/raw/*.csv
+data/raw/*.xlsx
+
+# Secrets et environnement local
+.env
+CLAUDE.local.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
