@@ -10,7 +10,8 @@
       "Bash(python -c \"import pandas, fredapi, dotenv; print\\('Tous OK depuis le terminal'\\)\")",
       "Bash(python -c ' *)",
       "Bash(python build_notebook.py)",
-      "Bash(python -m jupyter nbconvert --to notebook --execute notebooks/02_eda.ipynb --output 02_eda.ipynb)"
+      "Bash(python -m jupyter nbconvert --to notebook --execute notebooks/02_eda.ipynb --output 02_eda.ipynb)",
+      "Bash(python build_section2.py)"
     ]
   }
 }
