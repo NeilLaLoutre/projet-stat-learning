@@ -11,7 +11,17 @@
       "Bash(python -c ' *)",
       "Bash(python build_notebook.py)",
       "Bash(python -m jupyter nbconvert --to notebook --execute notebooks/02_eda.ipynb --output 02_eda.ipynb)",
-      "Bash(python build_section2.py)"
+      "Bash(python build_section2.py)",
+      "Bash(python -c \"import nbclient; print\\(nbclient.__version__\\)\")",
+      "Bash(python capture_values.py)",
+      "Bash(python revise_section2.py)",
+      "Bash(python run_notebook.py)",
+      "Bash(python run_notebook.py --strip)",
+      "Bash(rm -f build_section2.py capture_values.py revise_section2.py run_notebook.py)",
+      "Bash(ls -la *.py)",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git rm *)"
     ]
   }
 }
