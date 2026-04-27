@@ -21,7 +21,14 @@
       "Bash(ls -la *.py)",
       "Bash(git checkout *)",
       "Bash(git add *)",
-      "Bash(git rm *)"
+      "Bash(git rm *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(gh pr create --title 'Section 2 EDA : ancrage chiffres réels, Q-Q plots, ACF, matrice transformée' --body ' *)",
+      "Bash(where gh *)",
+      "Read(//c/Program Files/**)",
+      "Bash(powershell.exe -NoProfile -Command \"Get-Command gh -ErrorAction SilentlyContinue | Select-Object Source\")",
+      "Bash(env)"
     ]
   }
 }
